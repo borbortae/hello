@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./body {.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Edi</h1>
+  
+            </div>
+            <div class="gif_container">
+                <img src="https://media.tenor.com/nMCRF_FnRbUAAAAi/man-face.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">ano?</button>
+                
+                <script>
+                    function nextPage() {
+                        window.location.href = "wow.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                      
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>
